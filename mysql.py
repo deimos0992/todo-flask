@@ -2,7 +2,6 @@ from flask import Flask,jsonify,request
 from flask_mysqldb import MySQL
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
-from flask_bootstrap import Bootstrap
 import pymysql
 
 
