@@ -3,11 +3,14 @@ dominate==2.5.1
 Flask==1.1.2
 Flask-Bootstrap==3.3.7.1
 Flask-Cors==3.0.8
+flask-marshmallow==0.13.0
 Flask-MySQLdb==0.2.0
 Flask-SQLAlchemy==2.4.3
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
+marshmallow==3.6.1
+marshmallow-sqlalchemy==0.23.1
 mysqlclient==2.0.0
 PyMySQL==0.9.3
 six==1.15.0
