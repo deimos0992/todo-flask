@@ -21,7 +21,6 @@ ma = Marshmallow(app)
 class Task(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String, unique=True, nullable=False)
-    print("pollo")
     def __init__(self,title):
         self.title=title
 
